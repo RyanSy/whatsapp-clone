@@ -42,11 +42,11 @@ new Loader(App)
   .load(LoginCtrl)
   .load(NewChatCtrl)
   .load(ProfileCtrl)
-  .load(SetingsCtrl)
+  .load(SettingsCtrl)
   .load(InputDirective)
   .load(CalendarFilter)
   .load(ChatNameFilter)
-  load(ChatPictureFilter)
+  .load(ChatPictureFilter)
   .load(NewChatService)
   .load(Routes);
 
